@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+	<products>
+		<!-- BEGIN LOOP -->
+		<product>
+			<ParentProductID>[parentidchecker({Product Type},{Parent Product ID})]</ParentProductID>
+			<ProductType>{Product Type}</ProductType>
+			<Termékkategóriák>[acf_field_inserter({Product Type}, {ID}, {Parent Product ID}, {Category eMAG})]</Termékkategóriák>
+			<ProductName>[variations_name_stitcher({Title},{Product Type}, {Meret}, {Szin}, {Meretek}, {Logo}, {Arnyalat}, {Arnyalatok})]</ProductName>
+			<Manufacturer>Vigoshop</Manufacturer>
+			<ProductID>{ID}</ProductID>
+			<PartNumber>{Sku}</PartNumber>
+			<Excerpt>{Excerpt}</Excerpt>
+			<Content>[wistia_iframe_constructor({Content}, {Parent Product ID},{Product video url}, {Title})]</Content>
+			<ProductURL>{Permalink}</ProductURL>
+			<ImageURL1>[featured_image({Image URL},{Parent Product ID},0)]</ImageURL1>
+			<ImageURL2>[featured_image({Image URL},{Parent Product ID},1)]</ImageURL2>
+			<ImageURL3>[featured_image({Image URL},{Parent Product ID},2)]</ImageURL3>
+			<ImageURL4>[featured_image({Image URL},{Parent Product ID},3)]</ImageURL4>
+			<ImageURL5>[featured_image({Image URL},{Parent Product ID},4)]</ImageURL5>
+			<ImageURL6>[featured_image({Image URL},{Parent Product ID},5)]</ImageURL6>
+			<RegularPrice>{Regular Price}</RegularPrice>
+			<SalePrice>[davek({Sale Price})]</SalePrice>
+			<Status>{Status}</Status>
+			<StockStatus>{Stock Status}</StockStatus>
+			<Stock>[stock_checker({Status}, {Stock Status})]</Stock>
+		</product>
+		<!-- END LOOP -->
+	</products>
