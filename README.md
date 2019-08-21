@@ -1,4 +1,4 @@
-# XML-Feeds
+# XML-Feeds & Sookiro products import
 XML Feeds (from Wordpress WooCommerce products) for price comparison sites and online marketplaces
 
 eMAG.hu Marketplace [Hungary]:
