@@ -6,4 +6,4 @@ eMAG.hu Marketplace [Hungary]:
 - [functions-{HU}.php](custom-functions-%7BHU%7D.php)
 
 Sookiro products import:
-- []()
+- [custom-functions-for-importing-products](custom-functions-import-sookiro.php)
