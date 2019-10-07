@@ -9,9 +9,9 @@
 // $url = "ftp://username:password{@ftp_server/filepath";
 
 // Connection credentials
-$ftp_server = 'pftp.centprod.com';
-$ftp_user_name = 'phT3025597614406';
-$ftp_user_pass = 'Ohl1oos8';
+$ftp_server = 'ftp.server.com';
+$ftp_user_name = 'username';
+$ftp_user_pass = 'password';
 
 // set up basic connection
 $conn_id = ftp_connect($ftp_server);
