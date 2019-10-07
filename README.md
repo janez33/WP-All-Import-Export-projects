@@ -7,3 +7,4 @@ eMAG.hu Marketplace [Hungary]:
 
 Sookiro products import:
 - [custom-functions-for-importing-products](custom-functions-import-sookiro.php)
+- [import-ftp-proxy.php](import-ftp-proxy.php) --> Script for choosing the most recent date
