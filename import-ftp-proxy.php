@@ -37,7 +37,7 @@ $most_recent_date = date('Ymd', $max_date);
 $most_recent_date_key = array_search($most_recent_date, $dates);
 
 // Construct URL of the appropriate file
-$url = "ftp://phT3025597614406:Ohl1oos8{@pftp.centprod.com/HUB/O" . $filenames[$most_recent_date_key];
+$url = "ftp://username:password{@pftp.test.com/HUB/O" . $filenames[$most_recent_date_key];
 
 // These headers aren't strictly needed but can be helpful
 $header_filename = "Content-Disposition: attachment; filename=" . $filenames[$most_recent_date_key];
